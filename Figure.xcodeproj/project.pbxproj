@@ -14,6 +14,7 @@
 		C38BD7D81B9D93C300339EEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38BD7D71B9D93C300339EEA /* Images.xcassets */; };
 		C38BD7DB1B9D93C300339EEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C38BD7D91B9D93C300339EEA /* LaunchScreen.xib */; };
 		C38BD7E71B9D93C300339EEA /* FigureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C38BD7E61B9D93C300339EEA /* FigureTests.m */; };
+		C38BD7F21B9D93F200339EEA /* Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = C38BD7F11B9D93F200339EEA /* Drawing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C38BD7E01B9D93C300339EEA /* FigureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38BD7E51B9D93C300339EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C38BD7E61B9D93C300339EEA /* FigureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FigureTests.m; sourceTree = "<group>"; };
+		C38BD7F01B9D93F200339EEA /* Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawing.h; sourceTree = "<group>"; };
+		C38BD7F11B9D93F200339EEA /* Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drawing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C38BD7D71B9D93C300339EEA /* Images.xcassets */,
 				C38BD7D91B9D93C300339EEA /* LaunchScreen.xib */,
 				C38BD7CA1B9D93C300339EEA /* Supporting Files */,
+				C38BD7F01B9D93F200339EEA /* Drawing.h */,
+				C38BD7F11B9D93F200339EEA /* Drawing.m */,
 			);
 			path = Figure;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38BD7F21B9D93F200339EEA /* Drawing.m in Sources */,
 				C38BD7D31B9D93C300339EEA /* ViewController.m in Sources */,
 				C38BD7D01B9D93C300339EEA /* AppDelegate.m in Sources */,
 				C38BD7CD1B9D93C300339EEA /* main.m in Sources */,
